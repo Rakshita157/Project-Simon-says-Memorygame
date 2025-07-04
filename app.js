@@ -60,7 +60,7 @@ function checkAns(idx){
         }
     }
     else{
-        h2.innerHTML=`Game Over!  Your score was <b> ${level}</b> <br> Press any key to start.`;
+        h2.innerHTML=`Game Over!  Your score was <b> ${level}</b> <br> Press Start key to start again.`;
        document.querySelector("body").style.backgroundColor="red";
        setTimeout(function(){
         document.querySelector("body").style.backgroundColor="rgb(23, 32, 65)";},150);
